@@ -1,0 +1,8 @@
+@import "registro.css";
+@import "footer.css";
+@import "main.css";
+@import "Header.css";
+
+*{
+  box-sizing: border-box;
+}
