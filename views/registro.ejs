@@ -1,57 +1,73 @@
 <%-include("./partials/head.ejs")%>
 
-
+<body>
+    
 <section class="container cajaFormulario">
-        
+
+
     <article class="formulario">
+
         <form action="" method="POST" enctype="" id="">
-            <div class="logo"><img src="../image/" alt=""></div><i class="far fa-user icono"></i>
-            <h5>Registro de usuario</h5>
+            <img src="../images/logo224.png" alt="">
+            <h4>Registro de usuario</h4>
             <div class="row">
                 <div class="col-1"><i class="fas fa-envelope"></i></div>
-                <div class="col-11"><input class="form-control" placeholder="Email" name="email" id="">
+                <div class="col-11"><input class="form-control" placeholder="    Ingrese su email" name="email" id="">
                 </div>
             </div>
             <div class="row">
                 <div class="col-1"><i class="fas fa-lock"></i></div>
-                <div class="col-11"><input class="form-control " type="password" placeholder="Contraseña" name="password" id="">
+                <div class="col-11"><input class="form-control " type="password" placeholder="    Ingrese su contraseña" name="password" id="">
                 <small class="text-danger"> </small>
                 </div>
             </div>
             <div class="row">
                 <div class="col-1"><i class="fas fa-lock"></i></div>
-                <div class="col-11"><input class="form-control " type="password" placeholder="Repetir contraseña" name="password2" id="">
+                <div class="col-11"><input class="form-control " type="password" placeholder="    Repita su contraseña" name="password2" id="">
                     <small class="text-danger"> </small>
                     
                 </div>
             </div>
-            <h6>Información Personal</h6>
+            <h5>Información Personal</h5>
             <div class="row">
                 <div class="col-1"><i class="fas fa-user"></i></div>
-                <div class="col-11"><input class="form-control" type="text" placeholder="Nombre" name="nombre" id="">
+                <div class="col-11"><input class="form-control" type="text" placeholder="   Ingrese su nombre" name="nombre" id="">
                 <small class="text-danger"> </small>
                 <div id="errName"></div>
                 </div>  
             </div>   
             <div class="row">
                 <div class="col-1"><i class="fas fa-user"></i></div>
-                <div class="col-11"><input class="form-control " type="text" placeholder="Apellido" name="apellido" id="">
+                <div class="col-11"><input class="form-control " type="text" placeholder="   Ingrese su apellido" name="apellido" id="">
                 <small class="text-danger"> </small>
                 <div id="errApe"></div>
                 </div>
             </div>
-            
+            <div class="cajaRegistrarse">
             <button type="submit" class="btn btn-primary">Registrarse</button>
+            </div>
         </form>
 
-        <p>
-            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            ¿Porque debo registrarme?
+        <div class="cajaRegistrarse">
+        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            ¿Ya tienes cuenta?
             </button>
-          </p>
+        </div>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
             </div>
           </div>
     </article>
 </section>
+<div class="caja">
+    <ul class="menu">
+        <img class="logo2" src="../images/logo222.png" alt="">
+
+        <li><a href="">| Inicio</a></li>
+        <li><a href="">| Volver</a></li>
+        <li><a href="">| Ayuda</a></li>
+        <li><a href="">| About us</a></li>
+    </ul>
+</div>
+
+</body>
