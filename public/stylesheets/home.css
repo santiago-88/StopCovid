@@ -6,12 +6,8 @@ body {
 .titulo h1 {
   margin-bottom: 10px;
   font-size: 40px ;
-}´
-
-
-.banner {
-  text-align: center;
 }
+
 
 .caja1{
   display: flex;
