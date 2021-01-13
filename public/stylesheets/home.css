@@ -1,127 +1,228 @@
 body {
-  margin-bottom: 40px;
-  font-family: "Roboto Condensed", sans-serif;
+margin-bottom: 40px;
+font-family: "Open Sans",apple-system,blinkmacsystemfont,"Segoe UI","Helvetica Neue",arial,sans-serif;
 }
-
+.banner{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: 20px 0;
+}
+.banner img{
+width: 100%;
+}
 .titulo h1 {
-  margin-bottom: 10px;
-  font-size: 40px ;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 40px ;
+}
+.general3{
+display: flex;
+flex-wrap: wrap;
+margin-top: 30px ;
+padding-top: 30px ;
+width: 100%;
+}
+.cajag3{
+position: relative;
+}
+.cajag3 img{
+width: 100%;
+height: auto;
 }
 
-
+.caja2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.caja3{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.caja4{
+width: 100%;
+}
+.iconos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.icono{
+display: flex;
+flex-wrap: wrap;
+}
+.icono span:before{
+font-size: 100px;
+} 
+.icono p{
+font-size: 20px;
+text-align: center;
+}
+.flaticon-hospital{
+margin-left: 10px;
+}
 .caja1{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-   }
-   .img1{
-    display: flex;
-    flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center; 
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
 }
+.img1{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;}
 .img1 img{
-  width: 100%;
-  height: 100%;
-
-  }
+width:100%;}
 .info{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+display:flex;
+flex-direction:column;
+justify-content: center;}
+.caja3{
+height: 30vh;
+width: 100%;
+align-items: flex-end;  }
+h3{
+margin: 30px 0px 30px 0px;}
+.envio{
+position: absolute;
+z-index: 50;
+bottom: 10px;
+right:  20px;
 }
-h3 {
-  margin: 30px 0px 30px 0px;
-}
-.Noticia {
-  border: 1px solid silver;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: white;
-  height: 600px;
-  margin-bottom: 10px;
-  color: black;
-  overflow: hidden;
-}
-.Noticia h1 {
-  font-size: 15px;
-  font-family: Roboto-Condensed;
-}
-.Noticia figure {
-  border: 1px solid silver;
-  height: 300px;
-  overflow: hidden;
-}
-.Noticia .margenDeBoton {
-  margin-left: 5px;
-}
-
-
-/*buscador*/
-.cajaBuscador {
-  border: 1px solid silver;
-  border-radius: 5px;
-  padding-top: 4px;
-  height: 40px;
-  width: 100%;
-  margin-bottom: 10px;
-  background-color: white;
-}
-.cajaBuscador input {
-  margin: 0;
-  border: 0;
-  border-right: 1px solid silver;
-  height: 30px;
-  width: 87%;
-  outline: none;
-  padding-left: 10px;
-  background-color: #ebebeb;
-}
-.cajaBuscador button {
-  margin: 0;
-  border: 0;
-  margin-left: 5px;
-  background-color: white;
-  background-color: #ebebeb;
-}
-.cajaBuscador button i {
-  padding: 0;
-}
-
-
-
-
+.Noticia{
+border-radius: 5px;
+padding: 5px;
+background-color: white;
+height: 400px;
+margin-bottom: 10px;
+color: black;
+overflow: hidden;}
+.Noticia h1{
+font-size: 15px;
+font-family: Roboto-Condensed;}
+.Noticia figure{
+height: 200px;
+overflow: hidden;
+border: solid 1px black;}
+.Noticia .margenDeBoton{
+margin-left: 5px;}
+p{
+text-decoration:none;}
+a{
+text-decoration:none;}
 .general{
-  margin: 60px 0px 60px 0px;
-  background-color: beige;
-  display: flex;
-  flex-wrap: wrap;
-  height: 80vh;
-  width: 100%;
-}
+width: 100%;
+margin: 60px 0px 60px 0px; 
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
 .cajag1{
-border:black solid 1px;
-height: 80vh;
+margin: 30px 0px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
 justify-content: space-around;
-}
+text-align: center;}
 .cajag2{
-  border:black solid 1px;
-height: 80vh;
+margin: 30px 0px;text-align: center;display: flex;flex-wrap: wrap;}
+.cajag2 img{
+width: 100%;position: relative;}
+.cajag1 a{
+margin-bottom: 15px;}
+.boton1{
+width: 100%;
+border: white 1px solid;}
+.boton1:hover{
+background-color: rgb(0, 0, 0);}
+.titulo2 a:hover {
+background-color: red;}
+.general2{
+margin: 60px 0px 60px 0px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;}
+.cajag4{
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
+justify-content:space-around;
+margin: 0 20px;
+text-align: center;}
+.cajag4 img{
+width: 100%;}
+.cajaBotones{
+display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
-}
-.titulo2{
-  text-align: center;
-}
-.boton1{
-  width: 80%;
-  height: 8vh;
-  border: white 1px solid;
+align-items: center;}
+.estadísticas{
+width: 100%;
+margin: 60px 0px 60px 0px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+.cajag5 {
+width: 100%;}
+.cajag5 img{
+width:140px;}
+.largo{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;}
+.largo h2{
+margin-bottom: 50px;}
+.union{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+text-align: center;}
+.lineas{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 10px;
+padding-bottom: 10px;}
+.divisor1{
+background-color: blue;
+height: 4px;
+border-top:1px rgb(121, 121, 121);}
+.divisor2{
+background-color: black;
+height: 4px;
+border-top:1px rgb(121, 121, 121);}
+.divisor3{
+background-color: red;
+height: 4px;
+border-top:1px rgb(121, 121, 121);}
+.cajaBuscador{
+border: 1px solid silver;
+border-radius: 5px;
+padding-top: 4px;
+height: 40px;
+width: 100%;
+margin-bottom: 10px;
+background-color: white;}
+.cajaBuscador input{
+margin: 0;
+border: 0;
+border-right: 1px solid silver;
+height: 30px;
+width: 87%;
+outline: none;
+padding-left: 10px;}
+.cajaBuscador button{
+margin: 0;
+border: 0;
+margin-left: 5px;
+background-color: white;
+background-color: #ebebeb;}
+.cajaBuscador button i{
 
-}
-
+padding: 0}
