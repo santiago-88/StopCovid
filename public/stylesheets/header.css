@@ -2,11 +2,7 @@ img {
     width: 100px;
 }
 header {
-    font-size: 20px;    
-}
-#navbarDropdown{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-size: 22px;  
+    font-family: 'Asap Condensed', sans-serif;
 }
 .demo :hover {
     color: blue;
