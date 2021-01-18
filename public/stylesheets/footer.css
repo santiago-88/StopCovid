@@ -27,9 +27,7 @@ footer {
     display: flex;
     justify-content: center;
   }
-  a {
-    margin-right: 5px;
-  }
+
   .column1 h1 {
     font-size: 22px;
     text-align: center;  
@@ -46,31 +44,26 @@ footer {
     font-size: 22px;
   }
   .column2 .row {
-    margin-top: 20px;
-    display: flex;
-    margin-left: 5%;
+    margin-top: 10px;
   }
-  .row img {
-    width: 36px;
-    height: 36px;
-  }
+  
   .row2 a {
     color: #fffdfd;
   }
+  .column3 a{
+    display: block;
+    text-align: center;
+  } 
   .column3 h1 {
     font-size: 22px;
   }
   .column2 a {
+    display: block;
+    text-align: center;
     color: #fffbfb;
-    margin-left: 20px;
   }
-  .row2 {
-    margin-top: 20px;
-  }
-  .row2 {
-    width: 36px;
-    height: 36px;
-  }
+  
+
   .container-footer {
     width: 100%;
     background: #000000;

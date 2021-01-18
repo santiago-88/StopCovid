@@ -8,5 +8,7 @@ router.get('/', function(req, res, next) {
 router.get('/registro', function(req, res, next) {
   res.render('registro', { title: 'Express' });
 });
-
+router.get('/siteMap', function(req, res, next) {
+  res.render('siteMap', { title: 'siteMap' });
+});
 module.exports = router;
