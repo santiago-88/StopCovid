@@ -1,0 +1,21 @@
+img {
+    width: 100px;
+}
+header {
+    font-family: 'Asap Condensed', sans-serif;
+}
+.demo :hover {
+    color: blue;
+}
+
+.BotonHeader {
+    
+    color: black;
+}
+.BotonHeader :hover {
+    color: blue;
+}
+.BotonInvitado {
+    background-color: black;
+    border-radius: 20px;
+}

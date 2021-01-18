@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 ./node_modules
 /node_modules/
 ./node_modules/
 /node_modules
 node_modules
+=======
+/node_modules/
+node_modules/
+./node_modules/
+./node_modules
+/node_modules
+node_modules/
+>>>>>>> 3b6359aa040e4f90db3e97f2cf19ab239eb1e6d2
