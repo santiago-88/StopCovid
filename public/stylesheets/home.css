@@ -1,31 +1,27 @@
 body {
 
-    margin: 0;
-    margin-bottom: 40px;
-    font-family: "Roboto Condensed", sans-serif;
-    background: #2C3E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  }
-  .titulo h2{
-    text-align: center;
-    margin:30px 0px 30px 0px;
-  }
-  .banner{
-    text-align: center;
-    margin-top: 30px;
-  }
-  .bannerI{
-    width: 100%;
-    height: 300px;
-    border: 2px solid black;
-    margin:auto;
-    margin-top: 30px;
-  }  
-h3{
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.titulo h2{
   text-align: center;
   margin:30px 0px 30px 0px;
+}
+.banner{
+  text-align: center;
+  margin-top: 30px;
+}
+.bannerI{
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  margin:auto;
+  margin-top: 30px;
+}  
+h3{
+text-align: center;
+margin:30px 0px 30px 0px;
 
 }
 .banner{
@@ -78,21 +74,11 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 .icono{
-margin-top: 50px;
 display: flex;
 flex-wrap: wrap;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
 }
-.general2{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;}
 .icono span:before{
-font-size: 90px;
-text-align: center;
+font-size: 100px;
 } 
 .icono p{
 font-size: 20px;
@@ -139,7 +125,8 @@ color: black;
 overflow: hidden;}
 .Noticia h1{
 font-size: 15px;
-font-family: Roboto-Condensed;}
+font-family: Roboto-Condensed;
+}
 .Noticia figure{
 height: 200px;
 overflow: hidden;
@@ -177,6 +164,11 @@ border: white 1px solid;}
 background-color: rgb(0, 0, 0);}
 .titulo2 a:hover {
 background-color: red;}
+.general2{
+margin: 60px 0px 60px 0px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;}
 .cajag4{
 display: flex;
 flex-wrap: wrap;
@@ -257,19 +249,19 @@ background-color: #ebebeb;}
 .cajaBuscador button i{
 padding: 0;}
 @media screen and (max-width:999px) {
-    .cajag5 img {
-    display: none;
-    }
+  .cajag5 img {
+  display: none;
+  }
 }
 
 .cajaM{
-  border:black solid 1px;
-  height: 200px;
-  margin: 5px 5px 5px 5px;
+border:black solid 1px;
+height: 200px;
+margin: 5px 5px 5px 5px;
 }
 .cuadro{
-  margin: auto;
-  background-color: white;
-  width: 80%;
-  height: 400px;
+margin: auto;
+background-color: white;
+width: 80%;
+height: 400px;
 }
