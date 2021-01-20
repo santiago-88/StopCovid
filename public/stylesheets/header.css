@@ -1,9 +1,21 @@
 img {
-    width: 130px;
-  }
-  header{
-      font-family: -apple-system, BlinkMacSystemFont,  'Open Sans', 'Helvetica Neue', sans-serif;
-      
-  }
-  
-  
+    width: 100px;
+}
+header {
+    font-family: 'Asap Condensed', sans-serif;
+}
+.demo :hover {
+    color: blue;
+}
+
+.BotonHeader {
+    
+    color: black;
+}
+.BotonHeader :hover {
+    color: blue;
+}
+.BotonInvitado {
+    background-color: black;
+    border-radius: 20px;
+}
