@@ -1,0 +1,73 @@
+<%-include("./partials/head.ejs")%>
+<%- include("./partials/header.ejs")%> 
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <body>
+        <canvas id="chart" width="90%" height="40vh" ></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+        <script type="module">
+         function totalCasesChart(ctx){
+            const chart = new Chart(ctx, {
+                type:'line',
+                data:{
+                    labels:['Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre','Enero','Febrero','Marzo'],
+                    datasets:[
+                        {
+                            label:'Confirmados',
+                            borderColor:'yellow',
+                            data: [300,4032,542,800,1345,6565,4545,8787,6445,7678,988,887,1034,],
+                        },
+                        {
+                            label:'Recuperados',
+                            borderColor:'green',
+                            data: [40,640,550,450,200,100,34,3444,655,665,878,999,1334,566,6553],
+                        },
+                        {
+                            label:'Muertos',
+                            borderColor:'red',
+                            data: [80,950,644,754,545,4545,878,232,432,989,545,1233,989,7676,121,],
+                        },
+                    ]
+                },
+                options:{
+                    title:{
+                        display:true,
+                        text:'Todos los casos Covid-19',
+                        fontSize:40,
+                        padding:30,
+                        fontColor:'#23638c'
+                    },
+                    legend:{
+                        position:'bottom',
+                        lebels:{
+                            padding:20,
+                            boxWidth:15,
+                            fontColor:'black',
+                        }
+                    }
+                }
+            })
+         }
+         function renderCharts() {
+             const ctx = document.querySelector('#chart').getContext('2d')
+             totalCasesChart(ctx)
+         }
+         renderCharts()
+        </script>
+      
+
+            
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+ </body>
+</html>
+<%-include("./partials/footer.ejs")%>
