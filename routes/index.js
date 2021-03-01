@@ -11,4 +11,7 @@ router.get('/registro', function(req, res, next) {
 router.get('/siteMap', function(req, res, next) {
   res.render('siteMap', { title: 'siteMap' });
 });
+router.get('/prevention', function(req, res, next) {
+  res.render('prevention', { title: 'prevention' });
+});
 module.exports = router;

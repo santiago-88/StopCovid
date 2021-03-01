@@ -1,0 +1,47 @@
+.imgPrevention {
+  height: 80vh;
+  border: solid 1px blue;
+  background-image: linear-gradient(
+      120deg,
+      rgba(92, 153, 252, 0.445) 0%,
+      rgba(94, 118, 197, 0.466) 100%
+    ),
+    url(../images/img44.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgPrevention h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+}
+.sub-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+.prevencion {
+  width: 45%;
+  padding: 5px;
+  text-align: center;
+}
+.prevencion img {
+  width: 400px;
+}
+.prevencion h2 {
+  color: red;
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+
+}
+.prevencion p {
+  font-size: 20px;
+  color: rgba(0, 95, 247, 0.753);
+}
