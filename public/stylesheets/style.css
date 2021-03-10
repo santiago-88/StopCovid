@@ -3,6 +3,8 @@
 @import "footer.css";
 @import "siteMap.css";
 @import "home.css";
+@import "symptom.css";
+
 
 *{
   box-sizing: border-box;
